@@ -1,3 +1,6 @@
 <?php
-echo 'Please, add for me git repo :-) !!!!!!'; 
+echo 'Lets GO! :-) !!!!!!'; 
+#echo $undefined;
 require_once 'application/bootstrap.php';
+
+
