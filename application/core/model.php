@@ -2,6 +2,8 @@
 
 class Model {
 	
+	public $config;
+	
 	/*
 	 Модель обычно включает методы выборки данных, это могут быть:
 	> методы нативных библиотек pgsql или mysql;
@@ -11,8 +13,14 @@ class Model {
 	> и др.
 	*/
 	
+	function __construct() {
+#		$this->config = parse_ini_file('../.configuration');	
+		$this->config = 'FUUUCK!';	
+	}
+	
 	// метод выборки данных
 	function get_data() {
 		
 	}
+		
 }
