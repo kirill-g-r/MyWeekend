@@ -14,13 +14,16 @@ class Model {
 	*/
 	
 	function __construct() {
-#		$this->config = parse_ini_file('../.configuration');	
-		$this->config = 'FUUUCK!';	
+	
+		$this->config = parse_ini_file('application/.configuration.ini');
+		#if (isset($_SESSION[]))
+			
+
 	}
 	
 	// метод выборки данных
 	function get_data() {
-		
+		return 'FUUUCK!';		
 	}
 		
 }
