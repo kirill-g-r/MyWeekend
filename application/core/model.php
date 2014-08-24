@@ -1,29 +1,28 @@
 <?php
 
-class Model {
-	
-	public $config;
+class Model
+{
 	
 	/*
-	 Модель обычно включает методы выборки данных, это могут быть:
-	> методы нативных библиотек pgsql или mysql;
-	> методы библиотек, реализующих абстракицю данных. Например, методы библиотеки PEAR MDB2;
-	> методы ORM;
-	> методы для работы с NoSQL;
-	> и др.
+		Модель обычно включает методы выборки данных, это могут быть:
+			> методы нативных библиотек pgsql или mysql;
+			> методы библиотек, реализующих абстракицю данных. Например, методы библиотеки PEAR MDB2;
+			> методы ORM;
+			> методы для работы с NoSQL;
+			> и др.
 	*/
 	
-	function __construct() {
+	public $dbConnect;
 	
-		$this->config = parse_ini_file('application/.configuration.ini');
-		#if (isset($_SESSION[]))
-			
-
+	public function __construct() {
+	
+		$this->dbConnect = new PDO( 'mysql:host=localhost;dbname=MyWeekend', 'root', 'sergsund' );
+	
 	}
 	
 	// метод выборки данных
-	function get_data() {
-		return 'FUUUCK!';		
+	public function get_data()
+	{
+		// todo
 	}
-		
 }

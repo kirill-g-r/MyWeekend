@@ -1,6 +1,5 @@
-<?php
-#echo 'Lets GO! :-) !!!!!!'; 
-#echo $undefined; 
+﻿<?php
+
+ini_set('display_errors', 1);
 require_once 'application/bootstrap.php';
-
-
+#phpinfo();

@@ -5,12 +5,11 @@
 > цепляет классы контроллеров и моделей;
 > создает экземпляры контролеров страниц и вызывает действия этих контроллеров.
 */
-
 class Route
 {
 
 	static function start()
-	{ 
+	{
 		// контроллер и действие по умолчанию
 		$controller_name = 'Main';
 		$action_name = 'index';
@@ -64,7 +63,7 @@ class Route
 			*/
 			Route::ErrorPage404();
 		}
-	
+		
 		// создаем контроллер
 		$controller = new $controller_name;
 		$action = $action_name;
