@@ -15,14 +15,16 @@ class Model
 	public $dbConnect;
 	
 	public function __construct() {
+		
+		if (!isset($this->dbConnect)) {
 	
-		if (!$this->dbConnect = new PDO( 'mysql:host=localhost;dbname=MyWeekend', 'root', 'sergsund' )) {
+			if (!$this->dbConnect = new PDO( 'mysql:host=localhost;dbname=MyWeekend', 'root', 'sergsund' )) {
+				
+				exit('Failed to connect to DB');
+				
+			}
 			
-			exit('Failed to connect to DB');
-			
-		}
-		
-		
+		}			
 			
 	}
 		
