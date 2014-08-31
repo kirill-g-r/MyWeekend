@@ -16,10 +16,16 @@ class Model
 	
 	public function __construct() {
 	
-		$this->dbConnect = new PDO( 'mysql:host=localhost;dbname=MyWeekend', 'root', 'sergsund' );
-	
+		if (!$this->dbConnect = new PDO( 'mysql:host=localhost;dbname=MyWeekend', 'root', 'sergsund' )) {
+			
+			exit('Failed to connect to DB');
+			
+		}
+		
+		
+			
 	}
-	
+		
 	// метод выборки данных
 	public function get_data()
 	{

@@ -55,33 +55,33 @@
             </p>
           </div>
 
-<!-- Button trigger modal -->
-<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="container-signin" >
-
-      <form class="form-signin" role="form">
-        <h2 class="form-signin-heading">Please sign in</h2>
-        <input type="email" class="form-control" placeholder="Email address" required autofocus>
-        <input type="password" class="form-control" placeholder="Password" required>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" value="remember-me"> Remember me
-          </label>
-        </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      </form>
-
-    </div> <!-- /container -->
-    </div>
-  </div>
-</div>
+		<!-- Button trigger modal -->
+		<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+		  Launch demo modal
+		</button>
+		
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="container-signin" >
+		
+		      <form class="form-signin" role="form" action="login" method="post">
+		        <h2 class="form-signin-heading">Please sign in</h2>
+		        <input type="username" name="username" class="form-control" placeholder="Username" required autofocus>
+		        <input type="password" name="password" class="form-control" placeholder="Password" required>
+		        <div class="checkbox">
+		          <label>
+		            <input type="checkbox" value="remember-me"> Remember me
+		          </label>
+		        </div>
+		        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+		      </form>
+		
+		    </div> <!-- /container -->
+		    </div>
+		  </div>
+		</div>
 
           <div class="mastfoot">
             <div class="inner">
