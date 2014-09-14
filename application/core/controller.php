@@ -11,8 +11,15 @@ class Controller {
 	}
 	
 	// действие (action), вызываемое по умолчанию
-	function action_index()
-	{
+	public function action_index() {
+	
 		// todo	
 	}
+	
+	public function getRequestURI() {
+		
+		return end( explode( '/', $_SERVER['REQUEST_URI'] ) );
+				
+	}
+	
 }
