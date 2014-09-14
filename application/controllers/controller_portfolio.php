@@ -11,6 +11,7 @@ class Controller_Portfolio extends Controller
 	
 	function action_index()
 	{
+		//header('Location:/login');
 		$data = $this->model->get_data();		
 		$this->view->generate('portfolio_view.php', 'template_view.php', $data);
 	}
