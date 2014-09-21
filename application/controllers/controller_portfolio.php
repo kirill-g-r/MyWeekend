@@ -11,8 +11,16 @@ class Controller_Portfolio extends Controller
 	
 	function action_index()
 	{
-		//header('Location:/login');
+		//require_once 'application/core/login.php';
+		//$x = new Login();
+		//$x->checkUserLogin();
+		$this->checkUserAccess();
 		$data = $this->model->get_data();		
 		$this->view->generate('portfolio_view.php', 'template_view.php', $data);
 	}
+	function __destruct() {
+		
+				
+	}
+	
 }

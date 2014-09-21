@@ -33,22 +33,12 @@ class Controller {
 		return end( explode( '/', $_SERVER['REQUEST_URI'] ) );
 				
 	}
-	public function check_user_existence($username, $password) {
-	
-		$sql = 'SELECT *
-				FROM `users`
-				WHERE
-					`username` = :username
-				AND	`password` = :password
-				LIMIT 10';
-		$sth = $this->dbConnect->prepare($sql);
-		$sth->execute(array(
-				':username' => $username,
-				':password' => $password
-		));
-	
-		return $sth->fetch();
-	
+	public function checkUserAccess( $page = false ) {
+		
+		require_once 'application/core/login.php';
+		return Login::checkAccess();
+		
 	}
+	
 	
 }

@@ -38,7 +38,7 @@
 
           <div class="masthead clearfix">
             <div class="inner">
-              <h3 class="masthead-brand">MyWeekend</h3>
+              <h3 class="masthead-brand">MyWeegggkend</h3>
               <ul class="nav masthead-nav">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="/portfolio">MainPage</a></li>
@@ -67,7 +67,7 @@
 		    <div class="modal-content">
 		      <div class="container-signin" >
 		
-		      <form class="form-signin" role="form" action="portfolio" method="post">
+		      <form class="form-signin" role="form" action="login" method="post">
 		        <h2 class="form-signin-heading">Please sign in</h2>
 		        <input type="username" name="username" class="form-control" placeholder="Username" required autofocus>
 		        <input type="password" name="password" class="form-control" placeholder="Password" required>
