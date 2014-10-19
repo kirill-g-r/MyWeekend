@@ -109,7 +109,7 @@ a {
 	height: 130px;
 	padding: 40px;
 	position: relative;
-	background: url(../images/cap.jpg) no-repeat 85px 30px;
+	/*background: url(../images/cap.jpg) no-repeat 85px 30px;*/
 }
 
 #logo {

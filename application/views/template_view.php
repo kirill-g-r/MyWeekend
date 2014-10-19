@@ -16,7 +16,7 @@ Modified by VitalySwipe
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<title>ОЛОЛОША TEAM</title>
+		<title>MyWeekend</title>
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
 		<link href="http://fonts.googleapis.com/css?family=Kreon" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" type="text/css" href="/css/style.css" />
@@ -46,7 +46,7 @@ Modified by VitalySwipe
 		<div id="wrapper">
 			<div id="header">
 				<div id="logo">
-					<a href="/">ОЛОЛОША</span> <span class="cms">TEAM</span></a>
+					<a href="/">MyWeekend</a>
 				</div>
 				<div id="menu">
 					<ul>

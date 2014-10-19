@@ -33,7 +33,7 @@ class Controller {
 		return end( explode( '/', $_SERVER['REQUEST_URI'] ) );
 				
 	}
-	public function checkUserAccess( $page = false ) {
+	public function checkUserAccess() {
 		
 		require_once 'application/core/login.php';
 		return Login::checkAccess();
