@@ -61,7 +61,7 @@ class Route
 			правильно было бы кинуть здесь исключение,
 			но для упрощения сразу сделаем редирект на страницу 404
 			*/
-print_r($controller_name);//			Route::ErrorPage404();
+			Route::ErrorPage404();
 		}
 		
 		// создаем контроллер
@@ -76,7 +76,7 @@ print_r($controller_name);//			Route::ErrorPage404();
 		else
 		{
 			// здесь также разумнее было бы кинуть исключение
-print_r($controller_name);//			Route::ErrorPage404();
+			Route::ErrorPage404();
 		}
 	
 	}
