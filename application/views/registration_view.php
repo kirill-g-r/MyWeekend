@@ -31,7 +31,7 @@
   <body>
 
     <div class="container">
-      <form class="form-signin" role="form" action="../core/registeruser.php" method="post">      	
+      <form class="form-signin" role="form" action="/registeruser" method="post">      	
         <h2 class="form-signin-heading">Registration</h2>
         <h2 class="form-signin-heading">MyWeekend</h2>
         <input type="email" class="form-control" placeholder="Email address" required autofocus>
