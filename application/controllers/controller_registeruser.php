@@ -29,7 +29,7 @@ class Controller_Registeruser extends Controller {
 		
 		$this->sendMailToNewUser();
 		
-		//header('Location:/portfolio');
+		header('Location:/portfolio');
 		
 		
 			
@@ -122,7 +122,7 @@ class Controller_Registeruser extends Controller {
 	}
 	public function setUserSessionData() {
 		
-		session_start();
+		//session_start();
 		
 		$_SESSION['username'] = $this->username;
 		$_SESSION['password'] = $this->password;
