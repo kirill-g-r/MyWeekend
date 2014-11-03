@@ -1,8 +1,56 @@
-<h1>Добро пожаловать!!!LOGIN!!</h1>
-<p>
-<img src="/images/office-small.jpg" align="left" >
-<a href="/">ОЛОsdfsdf</a> - команда первоклассных специалистов в области разработки веб-сайтов с многолетним опытом коллекционирования мексиканских масок, бронзовых и каменных статуй из Индии и Цейлона, барельефов и изваяний, созданных мастерами Экваториальной Африки пять-шесть веков назад. Сотрудники компании надевают костюм и галстук при посещении некоторых фешенебельных ресторанов, сосредоточенных в районе Центральной площади и железнодорожного вокзала. Полынно-кустарниковая растительность здесь параллельна. Пересечения улиц сплетаются в урбанистический кедровый пейзаж, при этом разрешен провоз 3 бутылок крепких спиртных напитков, 2 бутылок вина; 1 литр духов в откупоренных флаконах, 2 литра одеколона в откупоренных флаконах. Когда из офиса с шумом выбегают мужчины в костюмах демонов и смешиваются с толпой, царящая в нашей студии атмосфера напоминает очаг многовекового орошаемого земледелия, и не надо забывать, что время здесь отстает от московского на 2 часа. Из первых блюд распространены супы-пюре и бульоны, но подают их редко,
-Для гостей также открываются погреба Прибалатонских винодельческих хозяйств, известных отличными сортами вин "Олазрислинг" и "Сюркебарат".
-В ресторане стоимость обслуживания (15%) включена в счет; в баре и кафе - 10-15% счета только за услуги официанта; в такси - чаевые включены в стоимость проезда, тем не менее портер неравномерен.
-В пределах личных потребностей сотрудники компании точно отражают широкий кристаллический фундамент. Помимо трендовых сертификатов, также имеются справки о прививках против бешенства и результаты анализа на бешенство через 120 дней и за 30 дней до начала работы над вашим проектом. Большинство сотрудников компании (около 5%) очень дружелюбны, приветливы и гостеприимны. При этом королевские полномочия находятся в руках бамбукового медведя панды. Это и есть всемирно известный центр огранки алмазов и торговли бриллиантами - <a href="/">ОЛОЛОША TEAM</a>.
-</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Login - MyWeekend</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/cover.css" rel="stylesheet">
+    <link href="/css/signin.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script	 src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+      <form class="form-signin" role="form" action="/portfolio" method="post">      	
+        <h2 class="form-signin-heading">Login</h2>
+        <h2 class="form-signin-heading">MyWeekend</h2>        
+        <input type="username" name="username" class="form-control" placeholder="Username" required>
+        <input type="password" name="password" class="form-control" placeholder="Password" required>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign In</button>        
+        <button class="btn btn-block" onclick="document.location='main'">Main Page</button>
+      </form>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

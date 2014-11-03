@@ -17,19 +17,5 @@ class Controller_Main extends Controller
 		}
 			
 	}
-	public function userIsLogged() {
 		
-		session_start();
-		
-		if (isset($_SESSION['username']) 
-			&& isset($_SESSION['password'])
-				&& !empty($_SESSION['username'])
-					&& !empty($_SESSION['password'])) {
-			
-			return true;
-			
-		}
-		
-	}
-	
 }

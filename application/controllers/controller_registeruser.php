@@ -17,6 +17,8 @@ class Controller_Registeruser extends Controller {
 				
 	function action_index() {
 		
+		$this->checkUserLogIn();
+		
 		$this->checkRegistrationFormData();
 		
 		$this->checkUserExistance();
@@ -27,7 +29,7 @@ class Controller_Registeruser extends Controller {
 		
 		$this->sendMailToNewUser();
 		
-		header('Location:/portfolio');
+		//header('Location:/portfolio');
 		
 		
 			
@@ -35,6 +37,17 @@ class Controller_Registeruser extends Controller {
 		echo 'IT WORKS!';
 //		return Registeruser::checkFunc();
 
+	}
+	
+	public function checkUserLogIn() {
+		
+		if ( $this->userIsLogged() ) {
+				
+			header('Location:/main');
+			exit;
+				
+		}
+		
 	}
 	
 	public function checkRegistrationFormData() {
@@ -70,6 +83,9 @@ class Controller_Registeruser extends Controller {
 			return true;
 			
 		}
+		
+		header('Location:/main');
+		exit;
 		
 	}
 	
@@ -112,7 +128,7 @@ class Controller_Registeruser extends Controller {
 		$_SESSION['password'] = $this->password;
 			
 		
-	} 
+	}	
 	public function sendMailToNewUser() {
 		
 		mail("goryunov.k@mail.ru", "My Subject", "Line 1\nLine 2\nLine 3");
