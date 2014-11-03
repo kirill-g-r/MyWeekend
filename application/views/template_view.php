@@ -53,7 +53,8 @@ Modified by VitalySwipe
 						<li class="first active"><a href="/">Главная</a></li>
 						<li><a href="/services">Услуги</a></li>
 						<li><a href="/portfolio">Портфолио</a></li>
-						<li class="last"><a href="/contacts">Контакты</a></li>
+						<li><a href="/contacts">Контакты</a></li>
+						<li class="last"><a href="/exit">Выход</a></li>
 					</ul>
 					<br class="clearfix" />
 				</div>

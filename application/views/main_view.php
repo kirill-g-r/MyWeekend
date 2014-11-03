@@ -42,8 +42,7 @@
               <ul class="nav masthead-nav">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="/portfolio">MainPage</a></li>
-                <li><a href="/services">Contact</a></li>
-                <li><a href="/exit">Exit</a></li>
+                <li><a href="/services">Contact</a></li>                
               </ul>
             </div>
           </div>

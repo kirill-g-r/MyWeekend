@@ -34,9 +34,9 @@
       <form class="form-signin" role="form" action="/registeruser" method="post">      	
         <h2 class="form-signin-heading">Registration</h2>
         <h2 class="form-signin-heading">MyWeekend</h2>
-        <input type="email" class="form-control" placeholder="Email address" required autofocus>
-        <input type="username" class="form-control" placeholder="Username" required>
-        <input type="password" class="form-control" placeholder="Password" required>
+        <input type="email" name="email" class="form-control" placeholder="Email address" required autofocus>
+        <input type="username" name="username" class="form-control" placeholder="Username" required>
+        <input type="password" name="password" class="form-control" placeholder="Password" required>
         <div class="checkbox">
           <label>
             <input type="checkbox" value="remember-me"> Remember me

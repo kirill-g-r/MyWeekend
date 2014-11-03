@@ -3,8 +3,8 @@
 class Controller_Portfolio extends Controller
 {
 
-	function __construct()
-	{
+	function __construct() {
+		
 		$this->model = new Model_Portfolio();
 		$this->view = new View();
 	}
