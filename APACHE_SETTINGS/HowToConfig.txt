@@ -1,3 +1,3 @@
 http://generaltea.ru/apache2-ubuntu-virtualhosts-servername/
 
-sudo a2enmod rewrite && sudo /etc/init.d/apache2 restart (включает режим RewriteEngine blablabla')
+sudo a2enmod rewrite && sudo /etc/init.d/apache2 restart (включает режим RewriteEngine bla bla bla')
