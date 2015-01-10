@@ -43,7 +43,7 @@
               <ul class="nav masthead-nav">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="/portfolio">MainPage</a></li>
-                <li><a href="/services">Contact</a></li>                
+                <li><a href="/services">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -51,26 +51,26 @@
           <div class="inner cover">
             <h1 class="cover-heading">MyWeekend.</h1>
             <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-            <p class="lead">              
+            <p class="lead">
               <button class="btn btn-lg btn-default" data-toggle="modal" onclick="document.location='registration'">
 				  Sign Up
 			  </button>
             </p>
           </div>
-                
+
 		<!-- Button trigger modal -->
 		<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#signIn">
 		  Sign In
 		</button>
-		
+
 		<!-- Modal -->
 		<div class="modal fade" id="signIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		  <div class="modal-dialog">
 		    <div class="modal-content">
 		      <div class="container-signin" >
-		
-		      <form class="form-signin" role="form" action="portfolio" method="post">		      
-		        <h2 class="form-signin-heading">Please sign in</h2>		        
+
+		      <form class="form-signin" role="form" action="portfolio" method="post">
+		        <h2 class="form-signin-heading">Please sign in</h2>
 		        <input type="username" name="username" class="form-control" placeholder="Username" required autofocus>
 		        <input type="password" name="password" class="form-control" placeholder="Password" required>
 		        <div class="checkbox">
@@ -78,21 +78,21 @@
 		            <input type="checkbox" value="remember-me"> Remember me
 		          </label>
 		        </div>
-		        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>		        
+		        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 		        <button class="btn btn-block" data-dismiss="modal" aria-hidden="true">Close</button>
 		      </form>
-		
+
 		    </div> <!-- /container -->
 		    </div>
 		  </div>
 		</div>
-		
+
 		<!-- Modal -->
 		<div class="modal fade" id="signUp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		  <div class="modal-dialog">
 		    <div class="modal-content">
 		      <div class="container-signin" >
-		
+
 		      <form class="form-signin" role="form" action="registration" method="post">
 		        <h2 class="form-signin-heading">Please sign up</h2>
 		        <input type="email" name="email" class="form-control" placeholder="Email" required autofocus>
@@ -105,7 +105,7 @@
 		        </div>
 		        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button>
 		      </form>
-		
+
 		    </div> <!-- /container -->
 		    </div>
 		  </div>
@@ -119,7 +119,7 @@
 
         </div>
 
-      </div>	
+      </div>
 
     </div>
 
